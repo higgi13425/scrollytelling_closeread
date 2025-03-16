@@ -1,0 +1,4 @@
+- source: scrollytelling_closeread.qmd
+  quarto-pub:
+    - id: b0ada3df-d397-4dc3-96cb-23e70832588b
+      url: 'https://phiggins.quarto.pub/spending-wisely-on-ibd-medications'

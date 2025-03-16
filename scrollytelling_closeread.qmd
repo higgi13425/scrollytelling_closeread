@@ -1,0 +1,102 @@
+---
+title: "Spending Wisely on IBD Medications"
+format: 
+  closeread-html:
+    cr-style:
+      narrative-background-color-overlay: yellow
+      narrative-text-color-overlay: dodgerblue
+      section-background-color: floralwhite
+---
+
+## An IBD Medical Therapy <br> Economic Thought Experiment
+
+:::: cr-section
+Somewhere between 33-50% of patients with Crohn's disease are prescribed 5-ASA medications like Pentasa. [@cr-pentasa]{scale-by="2"} <br>
+
+Thanks to Vip Jairath for the estimates here [click here to read about the estimates](https://ncbi.nlm.nih.gov/pubmed/29851091) [@cr-pentasa]
+
+::: {#cr-pentasa}
+```{r echo=FALSE, message=FALSE}
+library(knitr)
+library(here)
+include_graphics("~/Documents/Rcode/scrollytelling_closeread/images/1_Pentasa.jpeg")
+```
+:::
+
+And about 246.7 persons per 100,000 in the US has Crohn's disease. Among 320 million people in the US, that works out to be 789,440 people with Crohn's disease. [@cr-estimates]{scale-by="3" pan-to="-55%,35%"} 
+
+Thanks to Ed Loftus for the numbers. See the link for yourself [here to read the details](https://ncbi.nlm.nih.gov/pubmed/27856364). [@cr-estimates]
+
+::: {#cr-estimates}
+```{r echo=FALSE, message=FALSE}
+include_graphics("~/Documents/Rcode/scrollytelling_closeread/images/2_demog.png")
+```
+:::
+
+So, over 250,000 (possibly as many as 395K) Americans take 5-ASA medications for Crohn's disease. That would be fine, but 5-ASA medications are *not* FDA approved for the treatment of Crohn's disease. [@cr-not_approved]{scale-by="2"}
+
+::: {#cr-not_approved}
+```{r echo=FALSE, message=FALSE}
+include_graphics("~/Documents/Rcode/scrollytelling_closeread/images/3_not_approved.jpg")
+```
+:::
+
+Is this just an FDA oddity that these 5-ASA drugs are not approved for Crohn's disease? What does the evidence tell us? [@cr-not_approved]
+
+This Cochrane review states there is "no evidence in this review to suggest that oral 5-ASA preparations are superior to placebo for the maintenance of medically-induced remission in patients with Crohn's disease." [@cr-conclusions]{scale-by="1.9"}
+
+You can read the full review at [this link](https://www.cochrane.org/CD003715/IBD_oral-5-aminosalicylic-acid-drugs-maintenance-medically-induced-remission-crohns-disease) [@cr-conclusions]
+
+::: {#cr-conclusions}
+```{r echo=FALSE, message=FALSE}
+include_graphics("~/Documents/Rcode/scrollytelling_closeread/images/4_conclusions.png")
+```
+:::
+
+OK, so lots of caregivers in the US are prescribing unapproved 5-ASA medicines to patients with Crohn's disease, despite the lack of evidence that they work any better than placebo. We are wasting money on a medication that is no better than placebo. [@cr-money]{scale-by="2"}
+
+But how much money? [@cr-money]
+
+::: {#cr-money}
+```{r echo=FALSE, message=FALSE}
+include_graphics("~/Documents/Rcode/scrollytelling_closeread/images/5_money.jpeg")
+```
+:::
+
+At 250,000+ people a year, that could be a lot. But it depends on the price of 5-ASA medications. They've been around for a long time, & they are simple derivatives of aspirin. They're probably pretty cheap, right? [@cr-good_rx]{scale-by="1.6" pan-to="10%,35%"}
+
+Fortunately, [GoodRx](http://GoodRx.com ) can help us comparison shop. Note that they state that this medication is for ulcerative colitis (**not** Crohn's disease) [@cr-good_rx]
+
+::: {#cr-good_rx}
+```{r echo=FALSE, message=FALSE}
+include_graphics("~/Documents/Rcode/scrollytelling_closeread/images/6_good_rx.jpeg")
+```
+:::
+
+Good news! We can get a month's worth of Pentasa for only US\$1,451 at Costco! For a year, this would run US\$17,412 per person. And for (a low estimate of) 250,000 people, this costs the US healthcare system and insurers US\$4.353 billion *each year* [@cr-billion]{scale-by="2"}
+
+For *no* measurable benefit. Let that sink in. [@cr-billion]
+
+::: {#cr-billion}
+```{r echo=FALSE, message=FALSE}
+include_graphics("~/Documents/Rcode/scrollytelling_closeread/images/6a_billion_dollars.jpg")
+```
+:::
+
+So the next time a health insurer tells you they can't cover an FDA-approved medication for your #IBD, tell them you know how they can pay for it. [@cr-savings]{scale-by="2.5"}
+
+Stop paying for 5-ASAs for Crohn's disease. <br> Easy savings! [@cr-savings]
+
+::: {#cr-savings}
+```{r echo=FALSE, message=FALSE}
+include_graphics("~/Documents/Rcode/scrollytelling_closeread/images/7_savings.jpeg")
+```
+:::
+
+And just in case this is like finding a bug in Google software, for any health insurers that want to send the 0.1% finder's fee for saving \$4.3 billion dollars per year,the address is: [@cr-address]{scale-by="3"}
+
+::: {#cr-address}
+IBD Research Fund <br> SPC 5682 <br> 1500 Medical Center Drive <br> University of Michigan <br> Ann Arbor, MI, 48109 <br>
+:::
+
+::::
